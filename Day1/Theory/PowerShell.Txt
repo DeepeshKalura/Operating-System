@@ -1,3 +1,4 @@
+https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.3
 // Need To take The Part 1 Ok...
 
 
