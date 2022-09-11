@@ -1,0 +1,52 @@
+// Need To take The Part 1 Ok...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creating a Simple Function for PowerShell:
+
+  //Write-Host "I have Dell Laptops With Windows Os"
+  
+  Function Get-MachineInfo{
+    
+    Write-Host "I have Dell Laptops With Windows Os"
+  
+  }
+  
+  Get-MachineInfo // for calling purpose.
+  
+ Short Name of Get-childitem command --> gci function:\Get-MachineInfo  | f1*    // It will gives us all the info reading the function in powershell.
+ 
+  
+  Every PowerShell Command is made of two Parts 1:- Verb and Noun  {It is used in Naming Convention too.}
+
+
+Scope of a function is by-default it is written..
+We can made it global scope any time by adding a "Global" modifier.
+
+for example:- 
+    Function Global: Get-MachineInfo{
+    
+    Write-Host "I have Dell Laptops With Windows Os"
+  
+  }
+  
+  
+
+  
